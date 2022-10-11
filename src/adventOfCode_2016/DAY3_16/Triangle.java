@@ -62,7 +62,7 @@ public class Triangle {
         int a = Integer.parseInt(sideString[0]);
         int b = Integer.parseInt(sideString[1]);
         int c = Integer.parseInt(sideString[2]);
-        compareDigit(a, b, c);
+        checkIfValid(a, b, c);
     }
 
     // удалить из массива пробел
@@ -80,7 +80,7 @@ public class Triangle {
     }
 
     // проверить является ли тройка чисел сторонами треугольника
-    private void compareDigit(int a, int b, int c) {
+    private void checkIfValid(int a, int b, int c) {
         if ((a + b) > c && (b + c) > a && (c + a) > b) {
             this.countTriangle++;
         }
