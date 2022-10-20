@@ -1,4 +1,4 @@
-package adventOfCode_2016.DAY3_16;
+package adventOfCode_2016.day3_16_willAddClass;
 
 public class Triangle {
     private int countTriangle = 0;

@@ -1,4 +1,4 @@
-package adventOfCode_2015;
+package adventOfCode_2015.day2_15;
 
 public class DAY2_15_1_Dimensions {
     private int length;

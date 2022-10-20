@@ -1,4 +1,4 @@
-package adventOfCode_2015.DAY6_15_Abstractions;
+package adventOfCode_2015.day6_15_Abstractions_Max;
 
 abstract class Lamp {
     public int lightValue = 0;

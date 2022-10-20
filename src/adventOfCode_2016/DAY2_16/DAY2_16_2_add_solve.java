@@ -1,6 +1,6 @@
-package adventOfCode_2016.DAY2_16;
+package adventOfCode_2016.day2_16;
 
-public class no_DAY2_16_2 {
+public class DAY2_16_2_add_solve {
 
     /**
      *

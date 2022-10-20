@@ -1,4 +1,4 @@
-package adventOfCode_2015;
+package adventOfCode_2015.day6_15;
 // https://adventofcode.com/2015/day/6
 
 import java.io.FileNotFoundException;

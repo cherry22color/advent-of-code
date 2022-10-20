@@ -1,4 +1,4 @@
-package adventOfCode_2015;
+package adventOfCode_2015.day4_15;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -24,12 +24,15 @@ import java.security.NoSuchAlgorithmException;
  *
  * часть 2 - получить с хэш с 6 нулями
  */
-public class DAY4_15 {
+public class DAY4_15_MD5 {
     public static void main(String[] args) throws NoSuchAlgorithmException {
+
+
 
         String key = "bgvyzdsv";
         String keyhashWithZero = getHashWithZero5(key);
         System.out.println(keyhashWithZero);
+
     }
 
     /*Сформировать хэш с 5 нулями в начале */
@@ -37,15 +40,16 @@ public class DAY4_15 {
         int i = 0;
         boolean no5 = true;
         String keyhashWithZero = new String();
+
         while (no5 == true) {
 
             /* Обрезка конца строки  */
-            String keySubstring = key.substring(0, 8);
+            String keySubstring = key.substring(0, key.length());
             // key.append(i);  key.
             String keyConcat = keySubstring.concat(String.valueOf(i));
             String keyHash = hash(keyConcat);
 
-            if (keyHash.startsWith("000000") == true){
+            if (keyHash.startsWith("00000") == true){  // для 5
                 keyhashWithZero = keyConcat;
                 no5 = false;
             }
@@ -71,3 +75,8 @@ public class DAY4_15 {
         return builder.toString();
     }
 }
+
+
+
+
+

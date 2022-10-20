@@ -1,4 +1,4 @@
-package adventOfCode_2015.DAY6_15_Abstractions;
+package adventOfCode_2015.day6_15_Abstractions_Max;
 
 // https://adventofcode.com/2015/day/6
 import java.io.FileNotFoundException;

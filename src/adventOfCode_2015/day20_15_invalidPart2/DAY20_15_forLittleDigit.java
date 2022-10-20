@@ -1,8 +1,4 @@
-package adventOfCode_2015.DAY20_15;
-
-import adventOfCode_2016.ReadFile;
-
-import java.util.ArrayList;
+package adventOfCode_2015.day20_15_invalidPart2;
 
 public class DAY20_15_forLittleDigit {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package adventOfCode_2015;
+package adventOfCode_2015.day5_15;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
