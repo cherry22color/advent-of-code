@@ -1,4 +1,4 @@
-package adventOfCode_2016.DAY1_16;
+package adventOfCode_2016.day1_16;
 
 public class Point {
 

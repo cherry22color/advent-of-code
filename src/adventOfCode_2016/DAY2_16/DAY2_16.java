@@ -1,4 +1,4 @@
-package adventOfCode_2016.DAY2_16;
+package adventOfCode_2016.day2_16;
 
 import adventOfCode_2016.ReadFile;
 
@@ -57,7 +57,7 @@ import java.io.FileNotFoundException;
 
 public class DAY2_16 {
     public static void main(String[] args) throws FileNotFoundException {
-        ReadFile readFile = new ReadFile("DAY2_16");
+        ReadFile readFile = new ReadFile("day2_16");
         String[] insructionArr = readFile.readFileArray();
 
         int position = 5;

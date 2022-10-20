@@ -1,4 +1,4 @@
-package adventOfCode_2016.DAY1_16;
+package adventOfCode_2016.day1_16;
 
 import adventOfCode_2016.ReadFile;
 
@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 
 public class DAY1_16 {
     public static void main(String[] args) throws FileNotFoundException {
-        ReadFile readFile = new ReadFile("DAY1_16.txt");
+        ReadFile readFile = new ReadFile("day1_16.txt");
         String line = readFile.readFile();
         /* Разделить строку на массив строк, разделителем ", " */
         String[] sequenceRL = line.split(", ");
