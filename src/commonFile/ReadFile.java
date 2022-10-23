@@ -1,4 +1,4 @@
-package adventOfCode_2016;
+package commonFile;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

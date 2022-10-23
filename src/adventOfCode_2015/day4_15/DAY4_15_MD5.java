@@ -59,6 +59,7 @@ public class DAY4_15_MD5 {
     }
 
     /*Получить хэш исходного текста (ключа) */
+    //https://www.youtube.com/watch?v=epX1k_kCT9s&t=397s
     private static String hash(String string) throws NoSuchAlgorithmException {
         MessageDigest md5 = MessageDigest.getInstance("MD5");
         /* преобразование объекта класса StringBuilder в объект класса String для применения метода getBytes */

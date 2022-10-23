@@ -1,6 +1,6 @@
 package adventOfCode_2016.day2_16;
 
-import adventOfCode_2016.ReadFile;
+import commonFile.ReadFile;
 
 import java.io.FileNotFoundException;
 

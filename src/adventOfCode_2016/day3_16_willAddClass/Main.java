@@ -1,6 +1,6 @@
 package adventOfCode_2016.day3_16_willAddClass;
 
-import adventOfCode_2016.ReadFile;
+import commonFile.ReadFile;
 
 import java.io.FileNotFoundException;
 
