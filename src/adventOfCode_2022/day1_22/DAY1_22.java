@@ -1,4 +1,4 @@
-package adventOfCode_2022.day1_2022;
+package adventOfCode_2022.day1_22;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -31,15 +31,20 @@ public class DAY1_22 {
         int countCaliries = 0;
         int size = allCalories.length;
         for (int indexElfe = 0; indexElfe < size; indexElfe++) {
+
             if (allCalories[indexElfe] != "") {
                 countCaliries += Integer.parseInt(allCalories[indexElfe]);
-            } else {
+            } else  {
                 if (maxCalories < countCaliries) {
                     maxCalories = countCaliries;
                 }
                 sortAllCalories.add(countCaliries);
                 countCaliries = 0;
             }
+        }
+        // добавить последнее значение
+        if(countCaliries != 0){
+            sortAllCalories.add(countCaliries);
         }
         return maxCalories;
     }

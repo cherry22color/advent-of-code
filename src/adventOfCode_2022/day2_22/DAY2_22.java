@@ -1,4 +1,4 @@
-package adventOfCode_2022.day2_2022;
+package adventOfCode_2022.day2_22;
 
 import commonFile.ReadFile;
 
@@ -34,7 +34,7 @@ import java.io.FileNotFoundException;
 
 public class DAY2_22 {
     public static void main(String[] args) throws FileNotFoundException {
-        String name = "test";
+        String name = "DAY2_22";
         ReadFile readFile = new ReadFile(name);
         String[] mixStep = readFile.readFileArray();
 
@@ -78,12 +78,12 @@ public class DAY2_22 {
                 sumPoint += 1;
             } else if ((players[0].equals("B") && players[1].equals("Y")) ||
                     ((players[0].equals("A") && players[1].equals("Z"))) ||
-                    (players[0].equals("С") && players[1].equals("X"))) {
+                    (players[0].equals("C") && players[1].equals("X"))) {
                 // ничья и выбрать бумагу
                 // выиграть против камня
                 // проиграть против ножниц
                 sumPoint += 2;
-            } else if ((players[0].equals("С") && players[1].equals("Y")) ||
+            } else if ((players[0].equals("C") && players[1].equals("Y")) ||
                     ((players[0].equals("B") && players[1].equals("Z"))) ||
                     (players[0].equals("A") && players[1].equals("X"))) {
                 // ничья и выбрать ножницы
@@ -120,7 +120,6 @@ public class DAY2_22 {
             } else if (players[0].equals("C")) {
                 players[0] = "Z";
             }
-
             // присвоить баллы за исход игры
             /* проигрышь
              *  a x - z
