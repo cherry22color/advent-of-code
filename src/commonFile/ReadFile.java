@@ -44,6 +44,24 @@ public class ReadFile {
          return  arrayList.toArray(new String[arrayList.size()]);
     }
 
+    /* чтение информации с файла в массив */
+    public ArrayList readFileArrayList() throws FileNotFoundException{
+        FileReader file = new FileReader(name);
+        // scanner считывает содержимое файла и делит все на части (строки т.е. токены)
+        // \n символ разделитель для токенов
+        Scanner fileScanner = new Scanner(file);
+
+        // Коллекция для сохранения массива строк
+        ArrayList<String> arrayList = new ArrayList<String>();
+
+        // Запись строк в коллекцию
+        while (fileScanner.hasNext()){
+            arrayList.add(fileScanner.nextLine());
+        }
+        fileScanner.close();
+        return  arrayList ;
+    }
+
 //
 //    /* чтение информации с файла в массив */
 //    public Integer[] readFileArrayInt() throws FileNotFoundException{

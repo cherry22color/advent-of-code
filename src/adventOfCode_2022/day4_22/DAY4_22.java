@@ -103,14 +103,4 @@ public class DAY4_22 {
 
     }
 
-    // часть 1
-    // содержится в одном из пары
-    private static int getCountCouperContain(int countCouperContain, int start1, int finish1, int start2, int finish2) {
-        if (start1 <= start2 && finish1 >= finish2) { // если 2-10 и 3-5
-            countCouperContain++;
-        } else if (start2 <= start1 && finish2 >= finish1) { // если 3-5 и 2-10
-            countCouperContain++;
-        }
-        return countCouperContain;
-    }
 }
